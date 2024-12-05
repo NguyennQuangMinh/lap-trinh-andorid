@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateActivity">
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.907"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.524" />
+
+    <Button
+        android:id="@+id/btnSua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sửa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.524" />
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="124dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="164dp"
+            android:layout_height="180dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:text="   Số Xe : "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="   Quãng Đường (Km) : "
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:text="    Đơn Giá :"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:text=" Khuyến Mãi (%) :"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="226dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtSoXe"
+                android:layout_width="225dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Số Xe"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/edtQuangDuong"
+                android:layout_width="222dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Quãng Đường"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/edtDonGia"
+                android:layout_width="225dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Đơn Giá"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/edtKhuyenMai"
+                android:layout_width="221dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Khuyến Mãi "
+                android:inputType="text" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

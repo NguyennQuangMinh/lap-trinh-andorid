@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id= "@+id/mnuXanh" android:title="Chu xanh">
+    <item android:id= "@+id/mnudo" android:title="Chu do">
+    <item android:id= "@+id/mnuVang" android:title="Chu vang">
+</menu>

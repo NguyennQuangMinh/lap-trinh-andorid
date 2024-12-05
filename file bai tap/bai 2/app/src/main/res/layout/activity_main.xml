@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewKq"
+        android:layout_width="157dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="520dp"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextPheptoan"
+        android:layout_width="201dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="348dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewNhapa"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNhapb"
+        android:layout_width="201dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="220dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewNhapa"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewNhapb"
+        android:layout_width="60dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="220dp"
+        android:text="Nhập b :"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewKetQua"
+        android:layout_width="60dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="520dp"
+        android:text="Ket Quả :"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewPheptoan"
+        android:layout_width="83dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="348dp"
+        android:text="Phep toan : "
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewNhapa"
+        android:layout_width="60dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="32dp"
+        android:text="Nhập a :"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNhapa"
+        android:layout_width="201dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewNhapa"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="177dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="120dp"
+        android:background="#FFEB3B"
+        android:backgroundTintMode="add"
+        android:text="Calculate"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPheptoan" />
+
+    <ImageView
+        android:id="@+id/imageViewHigh"
+        android:layout_width="132dp"
+        android:layout_height="63dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewKq"
+        app:layout_constraintVertical_bias="0.408"
+        app:srcCompat="@drawable/Untitled" />
+</androidx.constraintlayout.widget.ConstraintLayout>

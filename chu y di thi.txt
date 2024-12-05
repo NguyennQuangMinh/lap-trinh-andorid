@@ -1,0 +1,1 @@
+MyDBHelper: public class MyDBHelper extends SQLiteOpenHelper : alt enter *2
